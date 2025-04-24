@@ -12,7 +12,3 @@ class Layer_Dense:
         self.output = np.dot(inputs, self.weights) + self.biases
 
 
-# X, Y = spiral_data(samples=100, classes=3)
-# densel = Layer_Dense(2, 3)
-# densel.forward(X)
-# print(densel.output[:5])

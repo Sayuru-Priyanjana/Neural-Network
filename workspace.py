@@ -20,5 +20,5 @@ densel2.forward(activation1.output)  # Forward pass through the second layer.
 activation2 = Activation_Softmax()  # Softmax activation function
 activation2.forward(densel2.output)
 
-print(activation2.output[:5])  # Print the first 5 output values of the softmax activation function.
+print(activation2.output[:10])  # Print the first 5 output values of the softmax activation function.
 
